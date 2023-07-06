@@ -5,8 +5,9 @@
     npm install mongoose --save, 
     npm i ts-node-dev --save-dev,
     npm i nvm, npm i cors,
-    copy to script: ts-node-dev --respawn --transpile-only server.ts
-    run: npm run dev
+    copy to script: ts-node-dev --respawn --transpile-only server.ts.
+    run: npm run dev.
+    data drive steps:: 1.Interface(user.interface)--> 2.Schema/Model(user.model)--> 3.Route(user.route)-->  4.Route_Controller(user.controller)--> 5.Database_Query(user.service)
 ```
 
 ### 📗 Table of Content:

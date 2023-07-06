@@ -1,11 +1,11 @@
-import express from 'express';
+import express from "express";
 const router = express.Router();
-import { creteUser, getUsers,getUserById } from './user.controller';
-import { getUserByIdFromDB, } from './user.serveice';
+import { creteUser, getUsers, getUserById, getAdminUsers } from "./user.controller";
 
 
-router.get('/', getUsers );
-router.get('/:id', getUserById);
-router.post('/create-user', creteUser)
+router.get("/", getUsers );
+router.get("/admins", getAdminUsers);
+router.get("/:id", getUserById);
+router.post("/create-user", creteUser);
 
 export default router;
