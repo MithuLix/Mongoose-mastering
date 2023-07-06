@@ -33,9 +33,9 @@ export const getUserById = async(req: Request, res:Response) => {
 
 export const getAdminUsers = async(req: Request, res:Response) => {
     const user = await getAdminUsersFromDB();
-    console.log("hitted from getAdminUser");
+    console.log("hitted from getAdminUsers");
     res.status(200).json({
         status:"success",
         data:user
-    })
+    });
 };
