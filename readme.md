@@ -5,40 +5,28 @@
     npm install mongoose --save, 
     npm i ts-node-dev --save-dev,
     npm i nvm, npm i cors,
+    npm i --save-dev @types/express, npm i --save-dev @types/cors, 
     copy to script: ts-node-dev --respawn --transpile-only server.ts.
     run: npm run dev.
     data drive steps:: 1.Interface(user.interface)--> 2.Schema/Model(user.model)--> 3.Route(user.route)-->  4.Route_Controller(user.controller)--> 5.Database_Query(user.service)
 ```
 
 ### 📗 Table of Content:
-
 ```ts
-    module 6 : Installation and explore read and write queries.
-    module 7 : Explore Mongoose more queries.
-    module 8: mongodb aggregation framework and indexing.
-    module 8.5 : Simple Mongoose  practice.
-    module 9 : Assignment-2.
+| >> Topic's i've learned :     
+| ----------------------------- | --------------------------- | ------------------------------- |
+| Express                       | Mongoose                    | Schema                          |
+| Interface                     | Model                       | Route                           |
+| Route_Controller              | Database_Query              | Mongoose indexing               |
+| MVC Pattern                   | Modular Pattern             |GET, POST, Delete                |
+| Refactor Code                 | Find, Field filtering       |Static, instance methods         |
+| Studio 3T, NoSql booster      |
+
+| >> MongoDB Operators: 
+| Query and Projection Operators:-->
+| Comparison Query Operators    | Logical Query Operators     | Element Query Operators         |
+| Evaluation Query Operators    | Geospatial Query Operators  | Geometry Specifiers             |
+| Array Query Operators         | Bitwise Query Operators     | Projection Operators            |
+| Miscellaneous Query Operators | Update Operators            | Aggregation Pipeline Stages     |
+| Aggregation Pipeline Operators| 
 ```
-
-```ts
-| >> Topic's i've learned :  
-| -------------------------- | --------------------------- | ---------------------------- |
-| Primitive types            | Array and Tuples            | Object                       |
-| Literal types              | Optional types              | Function                     |
-| Spread                     | Rest                        | Default parameters           |
-| Destructuring              | Type alias                  | Union and Intersection types |
-| Enum types                 | Null, Unknown, and Never    | Ternary Operator             |
-| Nullish Coalescing Operator| Type Assertion              | Interface                    |
-| Constraints                | Key of                      | Asynchronous                 |
-| Conditional Types          | Mapped Types                | Type vs Interface            |
-| Generic in Type            | Generic in Interface        | Generic in Function          |
-| Class                      | Parameter                   | Inheritance                  |
-| Type Guards                | Type Narrowing              | Abstraction                  |
-| Access Modifiers: Public,Private,Protected               | Getter & Setter              |
-| Static in Class            | Polymorphism                | Encapsulation                |
-| import                     | export                      |
-```
-
-
-### 📗 Explore Content:
-- [x] **module 2 : Explore Basic Types of Typescript :**# Mongoose-mastering
