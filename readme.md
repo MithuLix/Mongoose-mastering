@@ -1,4 +1,4 @@
-### 🎯 Mission 2: Be a Mongoose Master: 
+### 🎯 Be a Mongoose Master: 
 ```ts
     install:  npm install typescript --save-dev, 
     npm install express --save, 
